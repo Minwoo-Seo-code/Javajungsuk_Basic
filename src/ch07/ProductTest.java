@@ -15,12 +15,8 @@ public class ProductTest {
 		b.buy(new Audio());
 		System.out.println("현재 남은 돈은 " + b.money + " 입니다.");
 		System.out.println("현재 포인트는 " + b.bonusPoint + " 입니다.");
-		
-		
 	}
-
 }
-
 
 class Buyer {
 	int money = 100000;
@@ -33,5 +29,4 @@ class Buyer {
 		bonusPoint += p.bousePoint;
 		System.out.println(p + "를 구매하셨습니다.");
 	}
-	
 }
